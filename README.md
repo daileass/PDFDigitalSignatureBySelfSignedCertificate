@@ -7,6 +7,8 @@
 生成的自签名证书pfx，解决了数字签名后文档头部有警告
 
 部分代码：
+            
+            
             var fileCert = System.Environment.CurrentDirectory + "\\Cert\\";
             var file = System.Environment.CurrentDirectory + "\\File\\";
             var filePath = file + "dome.pdf";
